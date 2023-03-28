@@ -1,16 +1,12 @@
 .container {
-	// display: flex;
-	// flex-direction: row;
-	// flex-wrap: wrap;
-	// justify-content: flex-start;
-	// align-items: flex-start;
-	// align-content: flex-start;
-	// width: 1296px;
-	// width: 160px;
-	// height: 400px;
 
 	ul {
 		list-style-type: none;
+	}
+
+	li {
+		width: 170px;
+		height: 400px;
 	}
 
 	img {
