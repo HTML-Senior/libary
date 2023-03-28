@@ -1,0 +1,38 @@
+header {
+	display: flex;
+	height: 55px;
+	background-color: aqua;
+}
+
+.header-block {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 530px;
+	padding-left: 28px;
+}
+
+.router-container {
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: stretch;
+	margin: 0 auto;
+	width: 1296px;
+}
+
+.header-block a {
+	border: 5px solid #ccc;
+	border-radius: 5px;
+	font-size: 30px;
+}
+
+footer {
+	height: 88px;
+	background-color: aqua;
+	text-align: center;
+	font-size: 30px;
+}
