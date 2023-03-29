@@ -7,7 +7,7 @@ import { ProfileComponent } from "./pages/profile/profile.component";
 
 
 const routes: Routes = [
-	{ path: 'about', component: AboutComponent },
+	{ path: '', component: AboutComponent },
 	{ path: 'catalog', component: CatalogComponent },
 	{ path: 'favorites', component: FavouritesComponent },
 	{ path: 'profile', component: ProfileComponent },
